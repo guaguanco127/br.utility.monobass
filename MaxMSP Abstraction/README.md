@@ -1,11 +1,11 @@
-# Max/MSP Abstraction: br.utility.monobass.2.2  
+# Max/MSP Abstraction: br.utility.monobass.2.3  
    
 By Brian Riordan  
 guaguanco127 [at] gmail [dot] com  
 brianriordanmusic [at] gmail [dot] com  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
   
-Repository for br.utility.monobass.2.2, with all related files, can be found here: [https://github.com/guaguanco127/br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  
+Repository for br.utility.monobass.2.3, with all related files, can be found here: [https://github.com/guaguanco127/br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
 These files were created with Max 9.
@@ -45,9 +45,9 @@ Out-of-phase bass (one side upside down) cancels when summed, just as it would o
 
 | File | What it is |
 |---|---|
-| br.utility.monobass.2.2 | No UI. The plain object to patch with |
-| br.utility.monobass.ui.2.2 | With a Bass Mono button, a Freq dial and a Mix menu, ready for a [bpatcher] |
-| _br.utility.monobass.example.2.2 | Example patch with a wide synth bass: open this first |
+| br.utility.monobass.2.3 | No UI. The plain object to patch with |
+| br.utility.monobass.ui.2.3 | With a Bass Mono button, a Freq dial and a Mix menu, ready for a [bpatcher] |
+| _br.utility.monobass.example.2.3 | Example patch with a wide synth bass: open this first |
 
 The UI version contains the plain version and has the same inlets and audio outlets (plus State last), so either swaps in without rewiring. Open the UI version in patching mode for comments on how it is built.
 
@@ -61,9 +61,9 @@ By saving your logic in an abstraction, you can create modules that can be used 
 
 1. Make sure you have Max 9 installed, and that the Max patch you are using is saved inside a folder.  
 
-2. Copy the .maxpat files you want into the same folder as your patch. The UI version needs the plain version next to it (br.utility.monobass.ui.2.2 uses br.utility.monobass.2.2).
+2. Copy the .maxpat files you want into the same folder as your patch. The UI version needs the plain version next to it (br.utility.monobass.ui.2.3 uses br.utility.monobass.2.3).
 
-3. In your patch, create an object called br.utility.monobass.2.2. For the version with controls, create a [bpatcher] and choose br.utility.monobass.ui.2.2.maxpat as its patcher.
+3. In your patch, create an object called br.utility.monobass.2.3. For the version with controls, create a [bpatcher] and choose br.utility.monobass.ui.2.3.maxpat as its patcher.
 
 ## <a name="Use"></a>How To Use
 

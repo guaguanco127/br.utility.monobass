@@ -1,13 +1,13 @@
 # Max/MSP Patches, Abstractions, Externals, RNBO, VSTs, and Ableton Max for Live 
 
-## br.utility.monobass.2.2
+## br.utility.monobass.2.3
    
 By Brian Riordan  
 guaguanco127 [at] gmail [dot] com  
 brianriordanmusic [at] gmail [dot] com  
 [https://www.brianriordanmusic.com/](https://www.brianriordanmusic.com/) 
   
-Repository for br.utility.monobass.2.2, with all related files, can be found here: [https://github.com/guaguanco127/br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  
+Repository for br.utility.monobass.2.3, with all related files, can be found here: [https://github.com/guaguanco127/br.utility.monobass](https://github.com/guaguanco127/br.utility.monobass)  
 Additional programs can be found here: [https://github.com/guaguanco127/br.max](https://github.com/guaguanco127/br.max)
 
 These files were created with Max 9, or RNBO.
@@ -15,6 +15,7 @@ These files were created with Max 9, or RNBO.
 ## Links
 
 [About](#About)  
+[What's new in 2.3](#New23)  
 [Max/MSP Abstraction](https://github.com/guaguanco127/br.utility.monobass/tree/main/MaxMSP%20Abstraction) To use as an abstraction within Max/MSP   
 [Max/MSP RNBO for External or VST](https://github.com/guaguanco127/br.utility.monobass/tree/main/RNBO%20Patchers%20for%20External%20or%20VST) To build your own Max external, or a VST or AU audio plugin (needs RNBO)  
 [Ableton Max for Live Device](https://github.com/guaguanco127/br.utility.monobass/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite   
@@ -41,6 +42,10 @@ When in doubt use -6 dB: it is the only setting that can never clip.
 Out-of-phase bass (one side upside down) cancels when summed, just as it would on a mono system: monobass lets you hear that problem rather than hide it.
 
 You can use it as an abstraction within Max/MSP or as a Max for Live device within Ableton Live Suite. With RNBO you can also build your own Max external or VST/AU plugin from the included RNBO patch.
+
+## <a name="New23"></a>What's new in 2.3
+
+- **Readable dials in the Max for Live device:** the dials' values and needles are now white, so they stand out on the black panel (with Live's default theme they were dark and hard to read). The abstraction, RNBO patch and sound are unchanged; every file now has the version 2.3.
 
 ## <a name="New22"></a>What's new in 2.2
 
@@ -71,9 +76,9 @@ You can use it as an abstraction within Max/MSP or as a Max for Live device with
 
 | File | What it is |
 |---|---|
-| br.utility.monobass.2.2 | No UI. The plain object to patch with |
-| br.utility.monobass.ui.2.2 | With a Bass Mono button, a Freq dial and a Mix menu, ready for a [bpatcher] |
-| _br.utility.monobass.example.2.2 | Example patch with a wide synth bass: open this first |
+| br.utility.monobass.2.3 | No UI. The plain object to patch with |
+| br.utility.monobass.ui.2.3 | With a Bass Mono button, a Freq dial and a Mix menu, ready for a [bpatcher] |
+| _br.utility.monobass.example.2.3 | Example patch with a wide synth bass: open this first |
 
 The UI version contains the plain version and has the same inlets and audio outlets (plus State last), so either swaps in without rewiring. Open the UI version in patching mode for comments on how it is built.
 

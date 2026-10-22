@@ -39,7 +39,7 @@
         "enablehscroll": 1,
         "enablevscroll": 1,
         "devicewidth": 58.0,
-        "description": "br.utility.monobass.ui.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+        "description": "br.utility.monobass.ui.2.3 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
         "digest": "",
         "tags": "",
         "style": "",
@@ -61,7 +61,7 @@
                         360.0,
                         33.0
                     ],
-                    "text": "br.utility.monobass.ui.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
+                    "text": "br.utility.monobass.ui.2.3 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
                     "linecount": 2
                 }
             },
@@ -353,7 +353,7 @@
                     "fontsize": 12.0,
                     "maxclass": "newobj",
                     "id": "obj-core",
-                    "text": "br.utility.monobass.2.2",
+                    "text": "br.utility.monobass.2.3",
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [
@@ -402,7 +402,7 @@
                         280.0,
                         75.0
                     ],
-                    "text": "[br.utility.monobass.2.2] is the real object: open it to see the gen~ inside. This file only adds the controls, so you can also patch the core directly and drive Bass Mono or Freq with a signal (Freq up to 20 kHz there)."
+                    "text": "[br.utility.monobass.2.3] is the real object: open it to see the gen~ inside. This file only adds the controls, so you can also patch the core directly and drive Bass Mono or Freq with a signal (Freq up to 20 kHz there)."
                 }
             },
             {
@@ -444,7 +444,7 @@
             {
                 "box": {
                     "angle": 270.0,
-                    "annotation": "br.utility.monobass.ui.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+                    "annotation": "br.utility.monobass.ui.2.3 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
                     "background": 1,
                     "bgcolor": [
                         0.0,
@@ -452,7 +452,7 @@
                         0.0,
                         1.0
                     ],
-                    "hint": "br.utility.monobass.ui.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
+                    "hint": "br.utility.monobass.ui.2.3 -- Created by Brian Riordan, guaguanco127@gmail.com -- https://github.com/guaguanco127/",
                     "id": "obj-panel",
                     "maxclass": "panel",
                     "mode": 0,
