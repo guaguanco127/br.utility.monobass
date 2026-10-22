@@ -32,7 +32,7 @@
                         470.0,
                         33.0
                     ],
-                    "text": "_br.utility.monobass.example.2.2 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
+                    "text": "_br.utility.monobass.example.2.3 -- Created by Brian Riordan, guaguanco127@gmail.com\nhttps://github.com/guaguanco127/",
                     "linecount": 2
                 }
             },
@@ -87,7 +87,7 @@
                         560.0,
                         60.0
                     ],
-                    "text": "Two files, same DSP inside:\nbr.utility.monobass.2.2 = core, no UI (in: L, R, Bass Mono, Freq, Mix)\nbr.utility.monobass.ui.2.2 = the same with a Bass Mono button, a Freq dial and a Mix menu",
+                    "text": "Two files, same DSP inside:\nbr.utility.monobass.2.3 = core, no UI (in: L, R, Bass Mono, Freq, Mix)\nbr.utility.monobass.ui.2.3 = the same with a Bass Mono button, a Freq dial and a Mix menu",
                     "linecount": 4
                 }
             },
@@ -471,7 +471,7 @@
                         220.0,
                         20.0
                     ],
-                    "text": "A: br.utility.monobass.ui.2.2"
+                    "text": "A: br.utility.monobass.ui.2.3"
                 }
             },
             {
@@ -485,7 +485,7 @@
                     "lockeddragscroll": 0,
                     "lockedsize": 0,
                     "maxclass": "bpatcher",
-                    "name": "br.utility.monobass.ui.2.2.maxpat",
+                    "name": "br.utility.monobass.ui.2.3.maxpat",
                     "numinlets": 5,
                     "numoutlets": 3,
                     "offset": [
@@ -632,7 +632,7 @@
                     "fontsize": 12.0,
                     "maxclass": "newobj",
                     "id": "obj-b",
-                    "text": "br.utility.monobass.2.2",
+                    "text": "br.utility.monobass.2.3",
                     "numinlets": 5,
                     "numoutlets": 2,
                     "outlettype": [
