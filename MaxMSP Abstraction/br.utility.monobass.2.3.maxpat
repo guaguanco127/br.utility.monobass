@@ -231,7 +231,7 @@
                         "rect": [
                             100.0,
                             100.0,
-                            900.0,
+                            1116.0,
                             900.0
                         ],
                         "bglocked": 0,
@@ -279,9 +279,9 @@
                                         ""
                                     ],
                                     "patching_rect": [
-                                        50.0,
                                         20.0,
-                                        155.0,
+                                        20.0,
+                                        189.0,
                                         22.0
                                     ],
                                     "text": "in 1 @comment \"Left In (Signal)\""
@@ -299,9 +299,9 @@
                                         ""
                                     ],
                                     "patching_rect": [
-                                        215.0,
+                                        224.0,
                                         20.0,
-                                        155.0,
+                                        197.0,
                                         22.0
                                     ],
                                     "text": "in 2 @comment \"Right In (Signal)\""
@@ -319,12 +319,13 @@
                                         ""
                                     ],
                                     "patching_rect": [
-                                        380.0,
+                                        436.0,
                                         20.0,
-                                        155.0,
-                                        22.0
+                                        200.0,
+                                        76.0
                                     ],
-                                    "text": "in 3 @comment \"Bass Mono (Signal/Float) 0 = off, bass stays stereo. 1 = on, bass below Freq is L + R on both sides. 10 ms crossfade. Default 1\" @default 1"
+                                    "text": "in 3 @comment \"Bass Mono (Signal/Float) 0 = off, bass stays stereo. 1 = on, bass below Freq is L + R on both sides. 10 ms crossfade. Default 1\" @default 1",
+                                    "linecount": 5
                                 }
                             },
                             {
@@ -339,12 +340,13 @@
                                         ""
                                     ],
                                     "patching_rect": [
-                                        545.0,
+                                        651.0,
                                         20.0,
-                                        155.0,
-                                        22.0
+                                        200.0,
+                                        89.0
                                     ],
-                                    "text": "in 4 @comment \"Freq (Signal/Float) crossover in Hz, 20 to 20000. Below it the bass goes mono, above it stays stereo. 10 ms glide. Default 120\" @default 120"
+                                    "text": "in 4 @comment \"Freq (Signal/Float) crossover in Hz, 20 to 20000. Below it the bass goes mono, above it stays stereo. 10 ms glide. Default 120\" @default 120",
+                                    "linecount": 6
                                 }
                             },
                             {
@@ -359,12 +361,13 @@
                                         ""
                                     ],
                                     "patching_rect": [
-                                        710.0,
+                                        866.0,
                                         20.0,
-                                        155.0,
-                                        22.0
+                                        200.0,
+                                        116.0
                                     ],
-                                    "text": "in 5 @comment \"Mix (Int) how the low L + R are combined. 0 = 0 dB (bass on one side only), 1 = -3 dB (stereo bass, L and R different), 2 = -4.5 dB (full mix, centered and wide parts), 3 = -6 dB (centered bass, L = R, never clips). 10 ms glide. Default 3\" @default 3"
+                                    "text": "in 5 @comment \"Mix (Int) how the low L + R are combined. 0 = 0 dB (bass on one side only), 1 = -3 dB (stereo bass, L and R different), 2 = -4.5 dB (full mix, centered and wide parts), 3 = -6 dB (centered bass, L = R, never clips). 10 ms glide. Default 3\" @default 3",
+                                    "linecount": 8
                                 }
                             },
                             {
@@ -378,8 +381,8 @@
                                         ""
                                     ],
                                     "patching_rect": [
-                                        50.0,
-                                        70.0,
+                                        20.0,
+                                        212.0,
                                         815.0,
                                         900.0
                                     ],
@@ -399,12 +402,13 @@
                                     "numoutlets": 0,
                                     "outlettype": [],
                                     "patching_rect": [
-                                        50.0,
-                                        990.0,
-                                        300.0,
-                                        22.0
+                                        20.0,
+                                        1142.0,
+                                        200.0,
+                                        49.0
                                     ],
-                                    "text": "out 1 @comment \"Left Out (Signal) mono bass + left highs when Bass Mono is on\""
+                                    "text": "out 1 @comment \"Left Out (Signal) mono bass + left highs when Bass Mono is on\"",
+                                    "linecount": 3
                                 }
                             },
                             {
@@ -417,12 +421,13 @@
                                     "numoutlets": 0,
                                     "outlettype": [],
                                     "patching_rect": [
-                                        380.0,
-                                        990.0,
-                                        300.0,
-                                        22.0
+                                        816.0,
+                                        1142.0,
+                                        200.0,
+                                        49.0
                                     ],
-                                    "text": "out 2 @comment \"Right Out (Signal) mono bass + right highs when Bass Mono is on\""
+                                    "text": "out 2 @comment \"Right Out (Signal) mono bass + right highs when Bass Mono is on\"",
+                                    "linecount": 3
                                 }
                             }
                         ],
@@ -448,6 +453,12 @@
                                     "destination": [
                                         "obj-cb",
                                         1
+                                    ],
+                                    "midpoints": [
+                                        233.5,
+                                        151.0,
+                                        228.5,
+                                        151.0
                                     ]
                                 }
                             },
@@ -460,6 +471,12 @@
                                     "destination": [
                                         "obj-cb",
                                         2
+                                    ],
+                                    "midpoints": [
+                                        445.5,
+                                        163.0,
+                                        427.5,
+                                        163.0
                                     ]
                                 }
                             },
@@ -472,6 +489,12 @@
                                     "destination": [
                                         "obj-cb",
                                         3
+                                    ],
+                                    "midpoints": [
+                                        660.5,
+                                        175.0,
+                                        626.5,
+                                        175.0
                                     ]
                                 }
                             },
@@ -484,6 +507,12 @@
                                     "destination": [
                                         "obj-cb",
                                         4
+                                    ],
+                                    "midpoints": [
+                                        875.5,
+                                        187.0,
+                                        825.5,
+                                        187.0
                                     ]
                                 }
                             },

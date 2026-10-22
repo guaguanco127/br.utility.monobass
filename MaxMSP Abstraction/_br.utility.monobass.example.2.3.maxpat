@@ -260,7 +260,7 @@
                                         "rect": [
                                             100.0,
                                             100.0,
-                                            900.0,
+                                            908.0,
                                             900.0
                                         ],
                                         "bglocked": 0,
@@ -307,7 +307,7 @@
                                                         ""
                                                     ],
                                                     "patching_rect": [
-                                                        50.0,
+                                                        20.0,
                                                         20.0,
                                                         700.0,
                                                         460.0
@@ -328,9 +328,9 @@
                                                     "numoutlets": 0,
                                                     "outlettype": [],
                                                     "patching_rect": [
-                                                        50.0,
-                                                        500.0,
-                                                        120.0,
+                                                        20.0,
+                                                        510.0,
+                                                        155.0,
                                                         22.0
                                                     ],
                                                     "text": "out 1 @comment \"Bass L\""
@@ -346,9 +346,9 @@
                                                     "numoutlets": 0,
                                                     "outlettype": [],
                                                     "patching_rect": [
-                                                        400.0,
-                                                        500.0,
-                                                        120.0,
+                                                        701.0,
+                                                        510.0,
+                                                        157.0,
                                                         22.0
                                                     ],
                                                     "text": "out 2 @comment \"Bass R\""
