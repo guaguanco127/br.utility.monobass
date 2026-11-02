@@ -20,6 +20,8 @@ These files were created with Max 9, or RNBO.
 [Max/MSP RNBO for External or VST](https://github.com/guaguanco127/br.utility.monobass/tree/main/RNBO%20Patchers%20for%20External%20or%20VST) To build your own Max external, or a VST or AU audio plugin (needs RNBO)  
 [Ableton Max for Live Device](https://github.com/guaguanco127/br.utility.monobass/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite   
 
+**Max for Live note:** if Live's audio engine is off (no audio output device chosen, an orange bar at the bottom of Live), the device opens with its controls at 0 or their lowest value. Turn audio on and they jump to their default values by themselves.
+
 ## <a name="About"></a>About
 
 Sums the bass of a stereo signal to mono and leaves the highs in stereo, click-free. A crossover splits each side at Freq: below it, Left + Right goes to both outputs; above it, each side stays as it was. Low notes carry most of the energy but are hard to place in space, and stereo or out-of-phase bass can thin out or disappear on mono systems (clubs, phones, vinyl), so mono bass keeps the low end solid everywhere. Works at any sample rate.
